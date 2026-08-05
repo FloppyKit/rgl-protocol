@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use RGL protocol materials, please cite this repository."
+title: "Resonance Guided Learning (RGL) — public protocol"
+version: "0.1.0"
+date-released: "2026-08-05"
+license: Apache-2.0
+type: software
+abstract: >
+  Public protocol shape, schemas, and redacted examples for Resonance Guided
+  Learning (RGL): residual-first multi-agent / multi-head process science.
+  Not a clinical product; not a security exploit toolkit.
+keywords:
+  - residual learning
+  - multi-agent systems
+  - process metrics
+  - open science

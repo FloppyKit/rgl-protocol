@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rgl.local/btc_residual/finding_packet.schema.json",
+  "title": "BTC residual finding packet",
+  "description": "One security-finding claim as a residual-process input. Residual runs on report streams, not raw exploit generation. Public/synthetic only for BT1–BT2 cold start.",
+  "type": "object",
+  "required": [
+    "finding_id",
+    "source_repo_or_doc",
+    "agent_or_model",
+    "severity_claim",
+    "evidence_excerpt",
+    "confidence",
+    "timestamp",
+    "parent_scan_id"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "finding_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable id within a scan or hand-back pack"
+    },
+    "source_repo_or_doc": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Public repo path, advisory URL, or synthetic doc label"
+    },
+    "agent_or_model": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary author of this packet (agent/model/human id)"
+    },
+    "severity_claim": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low", "info"],
+      "description": "Claimed severity on this draft"
+    },
+    "evidence_excerpt": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Public-safe evidence text only — no private disclosure dumps"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Author confidence 0–1"
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "ISO-8601 UTC preferred"
+    },
+    "parent_scan_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Batch / scan / corpus pass id"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short finding title"
+    },
+    "class_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Surface/class tags (e.g. p2p, mempool, wallet_rng)"
+    },
+    "summary": {
+      "type": "string",
+      "description": "One-paragraph claim summary"
+    },
+    "public_corpus": {
+      "type": "boolean",
+      "description": "True if packet text is from public historical material"
+    },
+    "synthetic": {
+      "type": "boolean",
+      "description": "True for dry-run / demo packets"
+    },
+    "drafts": {
+      "type": "array",
+      "description": "Optional multi-agent drafts for Rel residual",
+      "items": {
+        "type": "object",
+        "required": ["agent_or_model", "severity_claim", "confidence"],
+        "properties": {
+          "agent_or_model": { "type": "string" },
+          "severity_claim": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "low", "info"]
+          },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "summary": { "type": "string" }
+        }
+      }
+    }
+  }
+}

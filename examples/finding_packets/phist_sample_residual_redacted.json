@@ -1,0 +1,348 @@
+{
+  "note": "Redacted residual outcomes on a public-historical demonstration sample. Ids + axes only; not a vulnerability database; escalate \u2260 confirmed vuln.",
+  "pack_name": "public_sample_v1",
+  "pack_root_sha256": "f90f0a0b29f287de6287be2dc14b5b20e0b39803295baa268f045ae3f5f7000e",
+  "n_packets": 25,
+  "n_escalate": 4,
+  "escalated_ids": [
+    "PHIST-005",
+    "PHIST-009",
+    "PHIST-012",
+    "PHIST-025"
+  ],
+  "thrash_hist": {
+    "null_calm": 20,
+    "growth_thrash": 4,
+    "stuck_thrash": 1
+  },
+  "mean_residual_energy": 0.1783,
+  "or_cost_usd": 0.0,
+  "mode": "offline_heuristic_public_corpus",
+  "trajectories_redacted": [
+    {
+      "finding_id": "PHIST-001",
+      "severity_claim": "critical",
+      "axes": {
+        "con": 0.2957,
+        "nov": 0.0,
+        "rel": 0.009
+      },
+      "residual_energy": 0.1367,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-002",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.0814,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.0427,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-003",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.2444,
+        "nov": 0.0,
+        "rel": 0.009
+      },
+      "residual_energy": 0.1136,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-004",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.1209,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.0604,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-005",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.102,
+        "nov": 0.0,
+        "rel": 0.57
+      },
+      "residual_energy": 0.2739,
+      "thrash_kind": "growth_thrash",
+      "escalate": true,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-006",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.1303,
+        "nov": 0.0,
+        "rel": 0.38
+      },
+      "residual_energy": 0.2106,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-007",
+      "severity_claim": "medium",
+      "axes": {
+        "con": 0.2892,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.1361,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-008",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.3133,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.147,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-009",
+      "severity_claim": "info",
+      "axes": {
+        "con": 0.0567,
+        "nov": 0.0,
+        "rel": 0.585
+      },
+      "residual_energy": 0.2595,
+      "thrash_kind": "growth_thrash",
+      "escalate": true,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-010",
+      "severity_claim": "critical",
+      "axes": {
+        "con": 0.253,
+        "nov": 0.1,
+        "rel": 0.0
+      },
+      "residual_energy": 0.1289,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-011",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.2781,
+        "nov": 0.1,
+        "rel": 0.235
+      },
+      "residual_energy": 0.2341,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-012",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.6262,
+        "nov": 0.07,
+        "rel": 0.57
+      },
+      "residual_energy": 0.5203,
+      "thrash_kind": "stuck_thrash",
+      "escalate": true,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-013",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.175,
+        "nov": 0.0,
+        "rel": 0.525
+      },
+      "residual_energy": 0.2887,
+      "thrash_kind": "growth_thrash",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-014",
+      "severity_claim": "medium",
+      "axes": {
+        "con": 0.2547,
+        "nov": 0.1,
+        "rel": 0.199
+      },
+      "residual_energy": 0.2092,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-015",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.1417,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.0698,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-016",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.1629,
+        "nov": 0.0,
+        "rel": 0.19
+      },
+      "residual_energy": 0.1493,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-017",
+      "severity_claim": "high",
+      "axes": {
+        "con": 0.2613,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.1236,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-018",
+      "severity_claim": "medium",
+      "axes": {
+        "con": 0.1774,
+        "nov": 0.0,
+        "rel": 0.012
+      },
+      "residual_energy": 0.0846,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-019",
+      "severity_claim": "medium",
+      "axes": {
+        "con": 0.0651,
+        "nov": 0.0,
+        "rel": 0.265
+      },
+      "residual_energy": 0.1353,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-020",
+      "severity_claim": "medium",
+      "axes": {
+        "con": 0.1221,
+        "nov": 0.0,
+        "rel": 0.371
+      },
+      "residual_energy": 0.2033,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-021",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.094,
+        "nov": 0.0,
+        "rel": 0.006
+      },
+      "residual_energy": 0.0447,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-022",
+      "severity_claim": "low",
+      "axes": {
+        "con": 0.1252,
+        "nov": 0.0,
+        "rel": 0.395
+      },
+      "residual_energy": 0.2143,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-023",
+      "severity_claim": "medium",
+      "axes": {
+        "con": 0.127,
+        "nov": 0.0,
+        "rel": 0.356
+      },
+      "residual_energy": 0.1995,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-024",
+      "severity_claim": "info",
+      "axes": {
+        "con": 0.0969,
+        "nov": 0.0,
+        "rel": 0.015
+      },
+      "residual_energy": 0.0496,
+      "thrash_kind": "null_calm",
+      "escalate": false,
+      "soft_free_assoc": false
+    },
+    {
+      "finding_id": "PHIST-025",
+      "severity_claim": "critical",
+      "axes": {
+        "con": 0.2873,
+        "nov": 0.0,
+        "rel": 0.73
+      },
+      "residual_energy": 0.4213,
+      "thrash_kind": "growth_thrash",
+      "escalate": true,
+      "soft_free_assoc": false
+    }
+  ]
+}
