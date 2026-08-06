@@ -1,73 +1,85 @@
 # Resonance Guided Learning (RGL)
 
-**Open science protocol** for residual-guided multi-agent / multi-head process work.
+**Open science protocol** for residual process on multi-agent work.
 
 This repository publishes **protocol shape, schemas, and redacted examples**.  
 It is **not** clinical software and **not** a security exploit toolkit.
 
 | | |
 |--|--|
-| **What it is** | Protocol shape, schemas, synthetic examples, redacted metrics |
-| **What it is not** | Therapy product · DSM claims · red-team replacement · private research dumps |
+| **What it is** | Process layer: residual ranking on *report/draft streams* |
+| **What it is not** | Red-team replacement · exploit kit · private disclosure dump |
 | **Status** | Early open science · v0.1 |
 
-## Core idea
+---
 
-RGL treats **residual process signal** as first-class — not only a final score.
+## If you run multi-agent security search (start here)
 
-- **Axes (ops names on reports):** consistency (**Con**), novelty (**Nov**), relational / cross-agent divergence (**Rel**)
-- **Dual metrics:** residual trajectory ≠ “cool score wins.” High residual can mean *attention needed*, not victory.
-- **Gates:** soft escalate when residual is high; **hard gate** when disclosure or safety requires stop.
+**Problem we target:** finding *volume* is easy; **human triage cost** is not.  
+Multi-agent runs produce report firehose. Residual ranking is meant to cut **tokens + human minutes per high-signal escalation** — not to scan more repos.
 
-**Use cases (examples):** multi-agent report triage, agent process science, open residual overlays.  
-Security finding-streams are one **worked example**, not the whole protocol.
+### Residual on finding streams (BTC-shaped worked example)
 
-## Quick start
+1. **[docs/RESIDUAL_OFFER.md](docs/RESIDUAL_OFFER.md)** — one-page offer / pilot framing  
+2. **[docs/BTC_RESIDUAL_OVERLAY.md](docs/BTC_RESIDUAL_OVERLAY.md)** — method note  
+3. **[examples/finding_packets/](examples/finding_packets/)** — public-historical **redacted** sample outcomes  
+4. **[schemas/finding_packet.schema.json](schemas/finding_packet.schema.json)** — packet shape  
 
-1. [`docs/PROTOCOL.md`](docs/PROTOCOL.md) — protocol shape  
-2. [`schemas/finding_packet.schema.json`](schemas/finding_packet.schema.json) — residual-on-**reports** packet shape  
-3. [`examples/finding_packets/`](examples/finding_packets/) — synthetic + redacted public sample  
-4. [`docs/BTC_RESIDUAL_OVERLAY.md`](docs/BTC_RESIDUAL_OVERLAY.md) — residual on finding streams
-5. [`examples/lean_sorry_triage/`](examples/lean_sorry_triage/) — residual attention on public Lean `sorry`s  
+**Pipeline (shape only):**
 
-## Applied example: residual on multi-agent findings
+```text
+finding packets (multi-agent drafts)
+  → residual Con / Nov / Rel
+  → escalate high residual shortlist
+  → hard gate: no auto-public disclosure of live vulns
+  → you keep disclosure ownership
+```
 
-A thin residual layer on multi-agent security *finding streams*:
+**Success metric:** tokens / human-minutes per high-signal escalate — **not** repos scanned, **not** finding-count vanity.
 
-- rank by Con / Nov / Rel  
-- escalate high residual shortlist  
-- hard-gate live disclosure  
+**Pilot tracks (if useful):**
 
-Success metric: **tokens / human minutes per high-signal escalation**, not repos scanned.
+| Track | What |
+|-------|------|
+| **A** | You send sanitized middling multi-agent drafts → residual-rank only |
+| **B** | You point at a public subset → same process, no private data |
 
-Redacted public-historical sample outcomes:  
-[`examples/finding_packets/phist_sample_residual_redacted.json`](examples/finding_packets/phist_sample_residual_redacted.json)
+---
 
-Pilot interest (optional): [`docs/RESIDUAL_OFFER.md`](docs/RESIDUAL_OFFER.md)
+## Protocol core
+
+1. [docs/PROTOCOL.md](docs/PROTOCOL.md) — protocol shape  
+2. Dual metrics: residual path ≠ “cool score wins.” High residual can mean *attention needed*.  
+3. Soft escalate when residual is high; **hard gate** when live disclosure safety requires stop.
+
+---
+
+## Other worked example (legitimacy / open science — not the security pitch)
+
+Same process idea on a different public stream: ranking open Lean `sorry`s by process attention (kernel still owns correctness).
+
+→ [examples/lean_sorry_triage/](examples/lean_sorry_triage/)
+
+No automated PRs. Not a proof contest entry.
+
+---
 
 ## What is not published here
 
-Controller parameters, private corpora, unredacted logs, and operational playbooks stay out of this repository. See non-claims below.
+Controller parameters, private corpora, unredacted logs, operational playbooks.
 
 ## License
 
-Apache-2.0 — see [`LICENSE`](LICENSE).
+Apache-2.0 — see [LICENSE](LICENSE).
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff).
+See [CITATION.cff](CITATION.cff).
 
 ## Non-claims
 
 - Not a medical device; not DSM / clinical diagnosis software.  
 - Not a certified cryptocurrency auditor.  
 - Not responsible disclosure of any third party’s private findings.  
-- Residual escalation is **not** the same as a confirmed vulnerability.
-
-## Worked example: Lean `sorry` triage
-
-Rank public open Lean obligations by process **attention** (where to look next).  
-Kernel still owns correctness. No auto-PRs.
-
-**[`examples/lean_sorry_triage/`](examples/lean_sorry_triage/)** — README + Zulip blurb + data
-
+- Residual escalation is **not** the same as a confirmed vulnerability.  
+- Not a replacement Bitcoin red team.
