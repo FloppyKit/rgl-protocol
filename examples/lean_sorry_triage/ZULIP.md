@@ -1,17 +1,21 @@
-# Zulip / GitHub — paste-ready
+# Zulip / GitHub — paste-ready (live URLs)
 
-Short. Optional. No pressure. (Lean community default mode.)
+Repo is public on `main`.
+
+**Landing:** https://github.com/FloppyKit/rgl-protocol/tree/main/examples/lean_sorry_triage  
+**README:** https://github.com/FloppyKit/rgl-protocol/blob/main/examples/lean_sorry_triage/README.md
 
 ---
 
-## Option A — ultra short
+## Option A — ultra short (recommended)
 
 ```text
 hey — tiny experiment on the public SorryDB static-100 list:
 rank open `sorry`s by a cheap process "attention" score (where look next),
 not difficulty, not proofs, no auto-PRs.
 
-README: examples/lean_sorry_triage/README.md
+https://github.com/FloppyKit/rgl-protocol/tree/main/examples/lean_sorry_triage
+
 Example: infinity-cosmos product-of-isofibrations sorry ranked relatively high;
 English gloss + pretty-printed goal in the README.
 
@@ -33,7 +37,7 @@ Formal Conjectures statement files) by an offline process-attention score.
 - no multi-head LLM scoring in this pack ($0 heuristic)
 - will not open automated PRs (SorryDB norm)
 
-Start: `examples/lean_sorry_triage/README.md`
+https://github.com/FloppyKit/rgl-protocol/blob/main/examples/lean_sorry_triage/README.md
 
 If the ranking is silly for your repo, that feedback is gold.
 If useless entirely, ignore — no FOMO.
@@ -47,5 +51,3 @@ If useless entirely, ignore — no FOMO.
 Experiment: process-attention ranking over public SorryDB sorries
 (not solutions; feedback welcome)
 ```
-
-Generated 2026-08-06
