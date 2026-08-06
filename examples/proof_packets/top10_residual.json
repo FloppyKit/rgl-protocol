@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "packet_id": "sorrydb_fb6b54e94ab974a1",
+    "energy": 0.5565,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "mixed",
+    "status": "sorry",
+    "source": "https://github.com/frenzymath/jixia",
+    "path": "Example.lean",
+    "url": "https://github.com/frenzymath/jixia/blob/e6d1448771f53b540a450fdf5180f1217efaaab8/Example.lean#L82"
+  },
+  {
+    "rank": 2,
+    "packet_id": "sorrydb_2923421152e5be64",
+    "energy": 0.5565,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "mixed",
+    "status": "sorry",
+    "source": "https://github.com/lean-ja/lean-by-example",
+    "path": "LeanByExample/Tactic/Plausible.lean",
+    "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Plausible.lean#L67"
+  },
+  {
+    "rank": 3,
+    "packet_id": "sorrydb_76c8504fdd8e4861",
+    "energy": 0.552,
+    "thrash_kind": "growth_thrash",
+    "dual_tag": "hot_working",
+    "status": "sorry",
+    "source": "https://github.com/emilyriehl/infinity-cosmos",
+    "path": "InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean",
+    "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean#L70"
+  },
+  {
+    "rank": 4,
+    "packet_id": "sorrydb_1c30fc32ce15f669",
+    "energy": 0.525,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/lean-ja/lean-by-example",
+    "path": "LeanByExample/Attribute/Aesop.lean",
+    "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L88"
+  },
+  {
+    "rank": 5,
+    "packet_id": "sorrydb_13f7907fcb967107",
+    "energy": 0.4845,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/FormalizedFormalLogic/Foundation",
+    "path": "Foundation/ProvabilityLogic/Grz/Completeness.lean",
+    "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L34"
+  },
+  {
+    "rank": 6,
+    "packet_id": "sorrydb_7f5dce4b990d4048",
+    "energy": 0.4845,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/FormalizedFormalLogic/Foundation",
+    "path": "Foundation/ProvabilityLogic/Grz/Completeness.lean",
+    "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L251"
+  },
+  {
+    "rank": 7,
+    "packet_id": "sorrydb_258a7b918aeb06e8",
+    "energy": 0.4845,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/FormalizedFormalLogic/Foundation",
+    "path": "Foundation/ProvabilityLogic/S/Completeness.lean",
+    "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32/Foundation/ProvabilityLogic/S/Completeness.lean#L253"
+  },
+  {
+    "rank": 8,
+    "packet_id": "sorrydb_d7a66edadb2d3aea",
+    "energy": 0.4845,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/FormalizedFormalLogic/Foundation",
+    "path": "Foundation/ProvabilityLogic/S/Completeness.lean",
+    "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/d773e9c193bd4782c94b32ea63ede4aae696573a/Foundation/ProvabilityLogic/S/Completeness.lean#L375"
+  },
+  {
+    "rank": 9,
+    "packet_id": "sorrydb_b966b1b22abc4e5f",
+    "energy": 0.4584,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/leanprover-community/duper",
+    "path": "Duper/Tests/test_continuity.lean",
+    "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/test_continuity.lean#L18"
+  },
+  {
+    "rank": 10,
+    "packet_id": "sorrydb_7930ba36e981d8f3",
+    "energy": 0.4584,
+    "thrash_kind": "message_thrash",
+    "dual_tag": "edge_stable",
+    "status": "sorry",
+    "source": "https://github.com/leanprover-community/batteries",
+    "path": "BatteriesTest/lint_unreachableTactic.lean",
+    "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L23"
+  }
+]

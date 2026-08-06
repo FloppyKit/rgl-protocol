@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rgl.local/lean_residual/proof_packet.schema.json",
+  "title": "RGL Lean / formalization proof packet",
+  "description": "One formalization unit (sorry obligation, conjecture statement, or micro-proof) as residual-process input. Lean typecheck owns correctness; residual owns process attention. Public corpus only for LEAN0.",
+  "type": "object",
+  "required": [
+    "packet_id",
+    "source_repo_or_doc",
+    "status",
+    "statement_nl",
+    "public_corpus",
+    "timestamp",
+    "parent_scan_id"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "packet_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_repo_or_doc": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "sorry",
+        "proved",
+        "statement_only",
+        "misaligned_suspect",
+        "micro_proof"
+      ]
+    },
+    "statement_nl": {
+      "type": "string",
+      "minLength": 1
+    },
+    "statement_lean_snip": {
+      "type": "string"
+    },
+    "goal_snip": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "path_in_repo": {
+      "type": "string"
+    },
+    "lean_version": {
+      "type": "string"
+    },
+    "public_corpus": {
+      "type": "boolean"
+    },
+    "synthetic": {
+      "type": "boolean"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "parent_scan_id": {
+      "type": "string"
+    },
+    "class_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "typecheck_ok": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Lean typecheck result if known; null if not run. NEVER folded into residual cool."
+    },
+    "residual": {
+      "type": "object",
+      "properties": {
+        "con": {
+          "type": "number"
+        },
+        "nov": {
+          "type": "number"
+        },
+        "rel": {
+          "type": "number"
+        },
+        "energy": {
+          "type": "number"
+        },
+        "thrash_kind": {
+          "type": "string"
+        },
+        "dual_tag": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

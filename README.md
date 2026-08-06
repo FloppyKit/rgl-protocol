@@ -27,7 +27,8 @@ Security finding-streams are one **worked example**, not the whole protocol.
 1. [`docs/PROTOCOL.md`](docs/PROTOCOL.md) — protocol shape  
 2. [`schemas/finding_packet.schema.json`](schemas/finding_packet.schema.json) — residual-on-**reports** packet shape  
 3. [`examples/finding_packets/`](examples/finding_packets/) — synthetic + redacted public sample  
-4. [`docs/BTC_RESIDUAL_OVERLAY.md`](docs/BTC_RESIDUAL_OVERLAY.md) — applied residual-on-findings note  
+4. [`docs/BTC_RESIDUAL_OVERLAY.md`](docs/BTC_RESIDUAL_OVERLAY.md) — residual on finding streams
+5. [`examples/lean_sorry_triage/`](examples/lean_sorry_triage/) — residual attention on public Lean `sorry`s  
 
 ## Applied example: residual on multi-agent findings
 
@@ -61,4 +62,12 @@ See [`CITATION.cff`](CITATION.cff).
 - Not a medical device; not DSM / clinical diagnosis software.  
 - Not a certified cryptocurrency auditor.  
 - Not responsible disclosure of any third party’s private findings.  
-- Residual escalation is **not** the same as a confirmed vulnerability.  
+- Residual escalation is **not** the same as a confirmed vulnerability.
+
+## Worked example: Lean `sorry` triage
+
+Rank public open Lean obligations by process **attention** (where to look next).  
+Kernel still owns correctness. No auto-PRs.
+
+**[`examples/lean_sorry_triage/`](examples/lean_sorry_triage/)** — README + Zulip blurb + data
+
