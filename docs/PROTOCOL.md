@@ -68,3 +68,9 @@ Machine schema: [`../schemas/finding_packet.schema.json`](../schemas/finding_pac
 ## 7. Proof without dump
 
 Public materials may include schemas, method shape, redacted aggregates, and content hashes — without private free-association text or private disclosure streams.
+
+## 8. Residual weighting + hormetic contact (stub)
+
+Raw residual magnitude is underdetermined. Context may **weight** which residual should move the system; **controlled elevated residual** can be high-value only when a **clearance** condition holds (coherent, recoverable, not false quiet). Hard gate still always wins.
+
+See: [`RESIDUAL_WEIGHTING_HORMESIS_STUB.md`](./RESIDUAL_WEIGHTING_HORMESIS_STUB.md).
