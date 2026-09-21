@@ -1,9 +1,9 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Published:** 2026-09-21 America/Chicago with Proof-8 VERIFY PASS stack
+**Updated:** 2026-09-21 America/Chicago with Proof-9 VERIFY PASS
 
-Path B = residual-guided deciding under opacity (SMAC-lite ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
+Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
 ## Language lock
 
@@ -21,6 +21,7 @@ Path B = residual-guided deciding under opacity (SMAC-lite ladder). Shared MiniH
 | PATHB-6 | boss rage/vulnerable | **thrash > blind** | success 0.46 vs 0.00; residual-helps same |
 | PATHB-7 | harder boss + scripted kite | **thrash > kite > blind** | 0.725 / 0.425 / 0.05; residual-helps same |
 | PATHB-8 | asymmetric tank/striker | **thrash > role_scripted > blind** | success 0.55 / 0.325 / 0.025; residual-helps same |
+| PATHB-9 | Minecraft-shaped fog/gather/craft/mob | **thrash > scripted > blind** | 0.85 / 0.80 / 0.10; residual-helps same |
 
 ## Public timestamp docs
 
@@ -29,6 +30,7 @@ Path B = residual-guided deciding under opacity (SMAC-lite ladder). Shared MiniH
 - [PATHB_PROOF6_BOSS_2026-09-21.md](PATHB_PROOF6_BOSS_2026-09-21.md)
 - [PATHB_PROOF7_HARDER_BOSS_2026-09-21.md](PATHB_PROOF7_HARDER_BOSS_2026-09-21.md)
 - [PATHB_PROOF8_ASYMMETRIC_2026-09-21.md](PATHB_PROOF8_ASYMMETRIC_2026-09-21.md)
+- [PATHB_PROOF9_MINECRAFT_SHAPED_2026-09-21.md](PATHB_PROOF9_MINECRAFT_SHAPED_2026-09-21.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
