@@ -27,13 +27,15 @@ Instrument (public): MiniHack `MiniHack-Room-5x5-v0` + NLE WAIT action.
 
 **Proves (narrow):** under this micro-env and harness, residual gating, sleep collapse, and interrupt policy behave as logged; inverse results are publishable, not buried.
 
-**Does not prove:** clinical outcomes, production Orbitty/Practice Desk performance, or that residual maps dominate all baselines forever.
+**Does not prove:** that residual maps dominate all baselines forever, or that these micro-env results generalize outside the sealed harness.
 
 ## Nest vs public
 
 | Public (this repo) | Nest (private) |
 |--------------------|----------------|
-| Protocol shape, schemas, redacted scores, method notes | Controller parameters, full free-association logs, operational playbooks, unredacted corpora |
+| Protocol shape, schemas, redacted scores, method notes | Full complete experiment logs, controller parameters, free-association corpora, operational playbooks |
+
+Public commits are the **buzz feed** for timestamp verification. Nest keeps the full record.
 
 ## Related
 
