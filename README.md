@@ -13,6 +13,17 @@ It is **not** clinical software and **not** a security exploit toolkit.
 
 ---
 
+## Names
+
+RGL is an overloaded public acronym — see **[docs/NAMES.md](docs/NAMES.md)**  
+(Resonance Guided Learning · Residual Geometry Loosening · Robert Galatzer-Levy rhyme).
+
+## Sealed micro-env proofs (science timestamp)
+
+**[docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md](docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md)** — MiniHack residual gate / sleep collapse / interrupt hold. Includes an **inverse** result (cool residual ≠ win). `clinical_claim: false`.
+
+---
+
 ## If you run multi-agent security search (start here)
 
 **Problem we target:** finding *volume* is easy; **human triage cost** is not.  
