@@ -16,11 +16,13 @@ It is **not** clinical software and **not** a security exploit toolkit.
 ## Names
 
 RGL is an overloaded public acronym — see **[docs/NAMES.md](docs/NAMES.md)**  
-(Resonance Guided Learning · Residual Geometry Loosening · Robert Galatzer-Levy rhyme).
+(Resonance Guided Learning · Residual Geometry Loosening · Robert Galatzer-Levy rhyme; book cite in NAMES).
 
 ## Sealed micro-env proofs (science timestamp)
 
 **[docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md](docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md)** — MiniHack residual gate / sleep collapse / interrupt hold. Includes an **inverse** result (cool residual ≠ win). `clinical_claim: false`.
+
+Public commits here are the timestamp buzz feed. Full experiment logs stay on nest.
 
 ---
 
@@ -77,7 +79,7 @@ No automated PRs. Not a proof contest entry.
 
 ## What is not published here
 
-Controller parameters, private corpora, unredacted logs, operational playbooks.
+Full complete experiment logs, controller parameters, private corpora, unredacted free-association, operational playbooks (nest).
 
 ## License
 
