@@ -230,6 +230,8 @@ Later appendices, not edits of Proofs 20–22: [PATHB_R2_MPE2_SIMPLE_TAG_2026-09
 
 [PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md](PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md) is still a pencil-and-paper grid, not real teamcraft: **inverse** on two Steves (fight 1.0000 > balanced 0.9750) with the ≥0.90 frontier equal to those two.
 
+[PATHB_MECH1_ROUTE_FEEL_CREDIT_CONSOLIDATE_2026-09-22.md](PATHB_MECH1_ROUTE_FEEL_CREDIT_CONSOLIDATE_2026-09-22.md): feel is null at this loudness, ungated credit digs (success 0.9750 → 0.4000, mass on freeze and love), and consolidate is untested when sleep never fires.
+
 ## How to cite, and where the seals live
 
 Cite this narrative as the methods overview, and cite the proof timestamp next to any number. Example:
