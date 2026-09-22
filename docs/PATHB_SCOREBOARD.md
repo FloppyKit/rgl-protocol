@@ -1,12 +1,12 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago — methods page greenlit + Proof-22 already public  
-**Next peel:** HOLD new sealed peels until Matt greenlights the next GO (methods articulation is done)
+**Updated:** 2026-09-22 America/Chicago — R2, R3a, R3b public timestamps (Proofs 20–22 headlines unchanged)  
+**Next peel:** R4-SEP (separability: predeclared leader and/or values axis). Held until this stamp; this commit is that stamp.
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder → MPE2 community port). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
-**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22).
+**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22; R2–R3b are later appendices, not headline edits).
 
 ## Language lock
 
@@ -17,7 +17,7 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 
 ## Affect → route map
 
-Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). **P16–P18** affect trilogy sealed. **P19** beat-frozen. **P20** custom unified sweep. **P21** Farama MPE2 community port (mixed; P21 laugh inverse). **P22** laugh-proxy repair (mapper artifact fixed; love still leads).
+Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). **P16–P18** affect trilogy sealed. **P19** beat-frozen. **P20** custom unified sweep. **P21** Farama MPE2 community port (mixed; P21 laugh inverse). **P22** laugh-proxy repair (mapper artifact fixed; love still leads). **R2** `simple_tag_v3` is **inverse** (flight leads; empty ≥0.90; fight≡capitulate under that lock). **R3a** capitulate construct lock (B for R2, A for future tag-like). **R3b** overweight sensitivity on fixed proxies (top arm stable for overweight > 0; frontier still empty).
 
 ## Scoreboard
 
@@ -42,10 +42,13 @@ Named affects = clusters of movement impulses (fight / flight / freeze / capitul
 | PATHB-20 | unified same-design affect-bias sweep; seven arms | **love = balanced > laugh > freeze > fight/flight/capitulate** | success 1.000 = 1.000 > 0.975 > 0.050 > 0; love cleaner, balanced faster |
 | PATHB-21 | Farama MPE2 `simple_world_comm_v3` community unified affect-bias | **mixed / partially confirmatory** | love 0.2875 > balanced 0.1500; **laugh inverse** 0.0125; success-qualified frontier **empty** |
 | PATHB-22 | MPE2 laugh-proxy repair (fixed-chirality; same P21 proxy) | **mixed / partially confirmatory** (repair) | laugh 0.0125→**0.1500** (=balanced); waste 36.19→**2.06**; love still **0.2875**; ≥0.90 frontier **empty** |
+| PATHB-R2 | MPE2 `simple_tag_v3` never-tagged (not world-comm) | **inverse** | flight **0.8125** > laugh 0.7750 > balanced 0.4500 > love 0.3250 > fight 0.1500 = capitulate 0.1500 > freeze 0.1250; ≥0.90 **empty**; fight≡capitulate same policy under this lock |
+| PATHB-R3a | capitulate construct lock (no new episodes) | **lock** | **B** for R2 (both rows kept); **A** for future tag-like (capitulate N/A-collapsed unless values/leader predeclared). Capitulate ≠ flight |
+| PATHB-R3b | overweight grid `{0, +1.0, +2.15, +3.5}` on fixed R2 and P21 proxies | **top arm stable for OW>0** | tag flight stays **0.8125**; P21 love stays **0.2875**; ≥0.90 **empty**; P21 sub-winner flip +1.0→+2.15 only |
 
 ## Learn-arm note (P11–P15)
 
-Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). P19 uses a distinct dual-timescale SAFE_PRECRAFT option/habit, not an LR retune, and narrowly exceeds frozen: one success win across 40 paired seeds. Affect trilogy sealed: **P16 CAPITULATE** inverse; **P17 LAUGH** same; **P18 LOVE/AUTOPILOT** same. P20 custom unified sweep success-qualified frontier = love + balanced. P21 community MPE2 port is mixed under constructed proxies (love leads; P21 laugh inverse). P22 shows P21 laugh inverse was mapper-conditioned: repaired laugh matches balanced on success with collapsed waste/blowback, but does not beat love.
+Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). P19 uses a distinct dual-timescale SAFE_PRECRAFT option/habit, not an LR retune, and narrowly exceeds frozen: one success win across 40 paired seeds. Affect trilogy sealed: **P16 CAPITULATE** inverse; **P17 LAUGH** same; **P18 LOVE/AUTOPILOT** same. P20 custom unified sweep success-qualified frontier = love + balanced. P21 community MPE2 port is mixed under constructed proxies (love leads; P21 laugh inverse). P22 shows P21 laugh inverse was mapper-conditioned: repaired laugh matches balanced on success with collapsed waste/blowback, but does not beat love. R2–R3b do not replace those sentences: R2 is inverse on a second MPE2 scenario, R3a locks how to read the fight/capitulate collapse, and R3b varies overweight only.
 
 ## Verification-order note
 
@@ -74,6 +77,9 @@ P20 was independently verified and published out of numerical order relative to 
 - [PATHB_PROOF20_UNIFIED_AFFECT_SWEEP_2026-09-21.md](PATHB_PROOF20_UNIFIED_AFFECT_SWEEP_2026-09-21.md)
 - [PATHB_PROOF21_MPE2_UNIFIED_AFFECT_2026-09-21.md](PATHB_PROOF21_MPE2_UNIFIED_AFFECT_2026-09-21.md)
 - [PATHB_PROOF22_MPE2_LAUGH_REPAIR_2026-09-21.md](PATHB_PROOF22_MPE2_LAUGH_REPAIR_2026-09-21.md)
+- [PATHB_R2_MPE2_SIMPLE_TAG_2026-09-22.md](PATHB_R2_MPE2_SIMPLE_TAG_2026-09-22.md)
+- [PATHB_R3A_CAPITULATE_CONSTRUCT_2026-09-22.md](PATHB_R3A_CAPITULATE_CONSTRUCT_2026-09-22.md)
+- [PATHB_R3B_SENSITIVITY_FIXED_PROXIES_2026-09-22.md](PATHB_R3B_SENSITIVITY_FIXED_PROXIES_2026-09-22.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
