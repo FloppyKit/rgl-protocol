@@ -1,7 +1,7 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago with Proof-15 VERIFY PASS + affect-route map lock
+**Updated:** 2026-09-21 America/Chicago with Proof-16 CAPITULATE VERIFY PASS
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
@@ -14,7 +14,7 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 
 ## Affect → route map
 
-Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). Path B P4–P15 mostly exercised fight/flight/freeze-ish; capitulate / laugh / love mostly unsealed.
+Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). Path B P4–P15 mostly exercised fight/flight/freeze-ish; **P16 seals CAPITULATE**; laugh / love next.
 
 ## Scoreboard
 
@@ -32,10 +32,11 @@ Named affects = clusters of movement impulses (fight / flight / freeze / capitul
 | PATHB-13 | outcome-gated learn vs greedy vs frozen | **gated = frozen > greedy > blind** | 0.725 = 0.725 > 0.70 > 0.075; gated>greedy |
 | PATHB-14 | sleep-collapse learn vs greedy vs frozen | **sleep = frozen > greedy > blind** | 0.725 = 0.725 > 0.70 > 0.075; sleep fired 12/40 |
 | PATHB-15 | slower LR (0.25×) vs greedy vs frozen | **slow = frozen > greedy > blind** | 0.725 = 0.725 > 0.70 > 0.075; slow vs frozen 0/40 |
+| PATHB-16 | values-conflict CAPITULATE (forbidden CHEST) | **inverse** on success | blind 0.90 > scripted 0.75 > residual 0.70; values_break 0.75 / 0.00 / 0.40 |
 
 ## Learn-arm note (P11–P15)
 
-Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). Affect-route map locked; next GOs exercise **capitulate / laugh / love** (and optional beat-frozen).
+Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). Affect-route map locked; **P16 CAPITULATE** sealed (inverse on primary success); next GOs **laugh / love**.
 
 ## Public timestamp docs
 
@@ -52,6 +53,7 @@ Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-colla
 - [PATHB_PROOF13_OUTCOME_GATED_2026-09-21.md](PATHB_PROOF13_OUTCOME_GATED_2026-09-21.md)
 - [PATHB_PROOF14_SLEEP_COLLAPSE_2026-09-21.md](PATHB_PROOF14_SLEEP_COLLAPSE_2026-09-21.md)
 - [PATHB_PROOF15_SLOWER_LR_2026-09-21.md](PATHB_PROOF15_SLOWER_LR_2026-09-21.md)
+- [PATHB_PROOF16_CAPITULATE_2026-09-21.md](PATHB_PROOF16_CAPITULATE_2026-09-21.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
