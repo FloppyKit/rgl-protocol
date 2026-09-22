@@ -1,7 +1,7 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago with Proof-15 VERIFY PASS
+**Updated:** 2026-09-21 America/Chicago with Proof-15 VERIFY PASS + affect-route map lock
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
@@ -11,6 +11,10 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 - When thrash matches blind ceiling: say Proof-5 thrash≈blind ceiling (do not use banned VERIFY tokens)  
 - When thrash loses / learn hurts: **inverse** (publishable)  
 - Battle law: cool residual ≠ win; cool→HOLD in engage = death  
+
+## Affect → route map
+
+Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). Path B P4–P15 mostly exercised fight/flight/freeze-ish; capitulate / laugh / love mostly unsealed.
 
 ## Scoreboard
 
@@ -31,10 +35,11 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 
 ## Learn-arm note (P11–P15)
 
-Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). Next forks (affect-map / beat-frozen) await greenlight.
+Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). Affect-route map locked; next GOs exercise **capitulate / laugh / love** (and optional beat-frozen).
 
 ## Public timestamp docs
 
+- [AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)
 - [PATHB_PROOF4_SMAC_LITE_2026-09-21.md](PATHB_PROOF4_SMAC_LITE_2026-09-21.md)
 - [PATHB_PROOF5_MEASURED_THRASH_2026-09-21.md](PATHB_PROOF5_MEASURED_THRASH_2026-09-21.md)
 - [PATHB_PROOF6_BOSS_2026-09-21.md](PATHB_PROOF6_BOSS_2026-09-21.md)
