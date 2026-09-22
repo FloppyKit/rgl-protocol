@@ -1,7 +1,7 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago with Proof-13 VERIFY PASS
+**Updated:** 2026-09-21 America/Chicago with Proof-14 VERIFY PASS
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
@@ -25,7 +25,8 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 | PATHB-10 | harder Minecraft-shaped | **thrash > scripted > blind** | 0.725 / 0.50 / 0.075; gap vs scripted **+0.225** |
 | PATHB-11 | learn-on residual map vs frozen (P10 family) | **thrash > baselines**; **learn inverse vs frozen** | frozen 0.725 > learn 0.70 > scripted 0.50 > blind 0.075 |
 | PATHB-12 | MC-shaped + CHATTER/STOP interrupt | **thrash > scripted > merge_blind** | 0.35 / 0.30 / 0.00; false_merges 0 vs 20 |
-| PATHB-13 | outcome-gated learn vs greedy vs frozen | **gated = frozen > greedy > blind** | 0.725 = 0.725 > 0.70 > 0.075; gated>greedy fixes P11 inverse |
+| PATHB-13 | outcome-gated learn vs greedy vs frozen | **gated = frozen > greedy > blind** | 0.725 = 0.725 > 0.70 > 0.075; gated>greedy |
+| PATHB-14 | sleep-collapse learn vs greedy vs frozen | **sleep = frozen > greedy > blind** | 0.725 = 0.725 > 0.70 > 0.075; sleep fired 12/40 |
 
 ## Public timestamp docs
 
@@ -39,6 +40,7 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 - [PATHB_PROOF11_LEARN_ON_2026-09-21.md](PATHB_PROOF11_LEARN_ON_2026-09-21.md)
 - [PATHB_PROOF12_INTERRUPT_MC_2026-09-21.md](PATHB_PROOF12_INTERRUPT_MC_2026-09-21.md)
 - [PATHB_PROOF13_OUTCOME_GATED_2026-09-21.md](PATHB_PROOF13_OUTCOME_GATED_2026-09-21.md)
+- [PATHB_PROOF14_SLEEP_COLLAPSE_2026-09-21.md](PATHB_PROOF14_SLEEP_COLLAPSE_2026-09-21.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
