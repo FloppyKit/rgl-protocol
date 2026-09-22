@@ -1,17 +1,19 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago with Proof-22 MPE2 laugh-proxy repair VERIFY PASS  
-**Next peel:** HOLD for methods articulation unless Matt greenlights
+**Updated:** 2026-09-21 America/Chicago — methods page greenlit + Proof-22 already public  
+**Next peel:** HOLD new sealed peels until Matt greenlights the next GO (methods articulation is done)
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder → MPE2 community port). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
+**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22).
+
 ## Language lock
 
-- When thrash beats baselines: say **thrash > …** and residual-helps hypothesis **same**  
-- When thrash matches blind ceiling: say **Proof-5 thrash≈blind ceiling** (use only this public wording)  
-- When thrash loses / learn hurts: **inverse** (publishable)  
-- Battle law: cool residual ≠ win; cool→HOLD in engage = death  
+- When thrash beats baselines: say **thrash > …** and residual-helps hypothesis **same**
+- When thrash matches blind ceiling: say **Proof-5 thrash≈blind ceiling** (use only this public wording)
+- When thrash loses / learn hurts: **inverse** (publishable)
+- Battle law: cool residual ≠ win; cool→HOLD in engage = death
 
 ## Affect → route map
 
@@ -51,6 +53,7 @@ P20 was independently verified and published out of numerical order relative to 
 
 ## Public timestamp docs
 
+- [PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md) — methods narrative through Proof-22
 - [AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)
 - [PATHB_PROOF4_SMAC_LITE_2026-09-21.md](PATHB_PROOF4_SMAC_LITE_2026-09-21.md)
 - [PATHB_PROOF5_MEASURED_THRASH_2026-09-21.md](PATHB_PROOF5_MEASURED_THRASH_2026-09-21.md)
