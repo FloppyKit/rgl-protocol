@@ -226,6 +226,8 @@ This series does **not** show:
 
 Later appendices, not edits of Proofs 20–22: [PATHB_R2_MPE2_SIMPLE_TAG_2026-09-22.md](PATHB_R2_MPE2_SIMPLE_TAG_2026-09-22.md) is a second MPE2 scenario and is **inverse** (flight leads, ≥0.90 empty, fight≡capitulate under that lock); [PATHB_R3A_CAPITULATE_CONSTRUCT_2026-09-22.md](PATHB_R3A_CAPITULATE_CONSTRUCT_2026-09-22.md) keeps both R2 rows and marks capitulate N/A-collapsed on future tag-like runs unless a values or leader axis is predeclared; [PATHB_R3B_SENSITIVITY_FIXED_PROXIES_2026-09-22.md](PATHB_R3B_SENSITIVITY_FIXED_PROXIES_2026-09-22.md) varies overweight only, and the top arm stays put for overweight > 0 while the ≥0.90 frontier stays empty.
 
+[PATHB_R4_SEP_SEPARABILITY_2026-09-22.md](PATHB_R4_SEP_SEPARABILITY_2026-09-22.md) is **NOT_SEPARABLE** on the success-ordered triple; [PATHB_R4B_DEFINING_AXES_2026-09-22.md](PATHB_R4B_DEFINING_AXES_2026-09-22.md) is **SEPARABLE** on the defining axes (damage, values-break, withdraw-without-chest) and does not test learning.
+
 ## How to cite, and where the seals live
 
 Cite this narrative as the methods overview, and cite the proof timestamp next to any number. Example:
