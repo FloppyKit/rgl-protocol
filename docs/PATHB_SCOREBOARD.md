@@ -1,7 +1,7 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago with Proof-20 unified affect-bias sweep VERIFY PASS
+**Updated:** 2026-09-21 America/Chicago with Proof-19 beat-frozen and Proof-20 unified affect-bias sweep VERIFY PASS
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
@@ -14,7 +14,7 @@ Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped 
 
 ## Affect → route map
 
-Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). **P16 CAPITULATE** + **P17 LAUGH** + **P18 LOVE/AUTOPILOT** sealed (affect trilogy). Next: beat-frozen (P19).
+Named affects = clusters of movement impulses (fight / flight / freeze / capitulate / laugh / love). See **[AFFECT_ROUTE_MAP.md](AFFECT_ROUTE_MAP.md)** (Barrett lineage cite + locked glosses). **P16 CAPITULATE** + **P17 LAUGH** + **P18 LOVE/AUTOPILOT** sealed (affect trilogy). **P19 BEAT-FROZEN** and **P20 unified affect-bias sweep** are verified/public.
 
 ## Scoreboard
 
@@ -35,15 +35,16 @@ Named affects = clusters of movement impulses (fight / flight / freeze / capitul
 | PATHB-16 | values-conflict CAPITULATE (forbidden CHEST) | **inverse** on success | blind 0.90 > scripted 0.75 > residual 0.70; values_break 0.75 / 0.00 / 0.40 |
 | PATHB-17 | SMAC-lite LAUGH vs malice thrash | **same** (laugh > malice) | scripted_laugh 1.0 = residual 1.0 > blind 0.825 > malice 0.475; false_damage 0 / 0.51 / 2.23 / 4.86 |
 | PATHB-18 | SMAC-lite LOVE/AUTOPILOT vs panic | **same** (autopilot > panic) | scripted_autopilot 1.0 = residual 1.0 > blind 0.825 > panic 0.000; false_damage 0 / 0.34 / 2.23 / 5.63 |
+| PATHB-19 | P10-family beat-frozen; dual-timescale SAFE_PRECRAFT option/habit | **beat_residual > frozen_thrash > scripted > blind** | success 0.750 / 0.725 / 0.500 / 0.075; waste beat 0.975 < frozen 1.250; success win 1/40 paired seeds |
 | PATHB-20 | unified same-design affect-bias sweep; seven arms | **love = balanced > laugh > freeze > fight/flight/capitulate** | success 1.000 = 1.000 > 0.975 > 0.050 > 0; love cleaner, balanced faster |
 
 ## Learn-arm note (P11–P15)
 
-Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). Affect trilogy sealed: **P16 CAPITULATE** inverse; **P17 LAUGH** same; **P18 LOVE/AUTOPILOT** same. Next: **beat-frozen** (P19) without reopening slow-LR HOLD.
+Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). P19 uses a distinct dual-timescale SAFE_PRECRAFT option/habit, not an LR retune, and narrowly exceeds frozen: one success win across 40 paired seeds. Affect trilogy sealed: **P16 CAPITULATE** inverse; **P17 LAUGH** same; **P18 LOVE/AUTOPILOT** same.
 
 ## Verification-order note
 
-P20 was independently verified and published out of numerical order. P19 remains sealed without a public timestamp here.
+P20 was independently verified and published out of numerical order. P19 is now also verified and public; the P20 row and document remain unchanged.
 
 ## Public timestamp docs
 
@@ -63,6 +64,7 @@ P20 was independently verified and published out of numerical order. P19 remains
 - [PATHB_PROOF16_CAPITULATE_2026-09-21.md](PATHB_PROOF16_CAPITULATE_2026-09-21.md)
 - [PATHB_PROOF17_LAUGH_2026-09-21.md](PATHB_PROOF17_LAUGH_2026-09-21.md)
 - [PATHB_PROOF18_LOVE_AUTOPILOT_2026-09-21.md](PATHB_PROOF18_LOVE_AUTOPILOT_2026-09-21.md)
+- [PATHB_PROOF19_BEAT_FROZEN_2026-09-21.md](PATHB_PROOF19_BEAT_FROZEN_2026-09-21.md)
 - [PATHB_PROOF20_UNIFIED_AFFECT_SWEEP_2026-09-21.md](PATHB_PROOF20_UNIFIED_AFFECT_SWEEP_2026-09-21.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
