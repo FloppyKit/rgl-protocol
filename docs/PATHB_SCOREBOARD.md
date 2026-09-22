@@ -1,14 +1,14 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-21 America/Chicago with Proof-18 LOVE/AUTOPILOT VERIFY PASS
+**Updated:** 2026-09-21 America/Chicago with Proof-20 unified affect-bias sweep VERIFY PASS
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
 ## Language lock
 
 - When thrash beats baselines: say **thrash > …** and residual-helps hypothesis **same**  
-- When thrash matches blind ceiling: say Proof-5 thrash≈blind ceiling (do not use banned VERIFY tokens)  
+- When thrash matches blind ceiling: say **Proof-5 thrash≈blind ceiling** (use only this public wording)  
 - When thrash loses / learn hurts: **inverse** (publishable)  
 - Battle law: cool residual ≠ win; cool→HOLD in engage = death  
 
@@ -35,10 +35,15 @@ Named affects = clusters of movement impulses (fight / flight / freeze / capitul
 | PATHB-16 | values-conflict CAPITULATE (forbidden CHEST) | **inverse** on success | blind 0.90 > scripted 0.75 > residual 0.70; values_break 0.75 / 0.00 / 0.40 |
 | PATHB-17 | SMAC-lite LAUGH vs malice thrash | **same** (laugh > malice) | scripted_laugh 1.0 = residual 1.0 > blind 0.825 > malice 0.475; false_damage 0 / 0.51 / 2.23 / 4.86 |
 | PATHB-18 | SMAC-lite LOVE/AUTOPILOT vs panic | **same** (autopilot > panic) | scripted_autopilot 1.0 = residual 1.0 > blind 0.825 > panic 0.000; false_damage 0 / 0.34 / 2.23 / 5.63 |
+| PATHB-20 | unified same-design affect-bias sweep; seven arms | **love = balanced > laugh > freeze > fight/flight/capitulate** | success 1.000 = 1.000 > 0.975 > 0.050 > 0; love cleaner, balanced faster |
 
 ## Learn-arm note (P11–P15)
 
 Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-collapse, and slow LR each restore the frozen ceiling (same success 0.725). Affect trilogy sealed: **P16 CAPITULATE** inverse; **P17 LAUGH** same; **P18 LOVE/AUTOPILOT** same. Next: **beat-frozen** (P19) without reopening slow-LR HOLD.
+
+## Verification-order note
+
+P20 was independently verified and published out of numerical order. P19 remains sealed without a public timestamp here.
 
 ## Public timestamp docs
 
@@ -58,6 +63,7 @@ Greedy learn slightly hurts vs frozen on this layout. Outcome-gated, sleep-colla
 - [PATHB_PROOF16_CAPITULATE_2026-09-21.md](PATHB_PROOF16_CAPITULATE_2026-09-21.md)
 - [PATHB_PROOF17_LAUGH_2026-09-21.md](PATHB_PROOF17_LAUGH_2026-09-21.md)
 - [PATHB_PROOF18_LOVE_AUTOPILOT_2026-09-21.md](PATHB_PROOF18_LOVE_AUTOPILOT_2026-09-21.md)
+- [PATHB_PROOF20_UNIFIED_AFFECT_SWEEP_2026-09-21.md](PATHB_PROOF20_UNIFIED_AFFECT_SWEEP_2026-09-21.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
