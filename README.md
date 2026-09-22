@@ -24,7 +24,8 @@ RGL is an overloaded public acronym — see **[docs/NAMES.md](docs/NAMES.md)**
 **[docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md](docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md)** — residual gate / sleep collapse / interrupt hold. Includes an **inverse** result (cool residual ≠ win). `clinical_claim: false`.
 
 **Path B — RGL as deciding agent (opaque next-state):**  
-**[docs/PATHB_SCOREBOARD.md](docs/PATHB_SCOREBOARD.md)** — index for Proofs 4–8 (inverse cool→HOLD; thrash recovers; boss; harder+kite; asymmetric). Prefer **thrash > baseline** language when thrash wins.  
+**[docs/PATHB_SCOREBOARD.md](docs/PATHB_SCOREBOARD.md)** — index for Proofs 4–15 (boss / MC / learn / interrupt). Prefer **thrash > baseline** language when thrash wins.  
+**[docs/AFFECT_ROUTE_MAP.md](docs/AFFECT_ROUTE_MAP.md)** — affect as movement-impulse clusters (fight/flight/freeze/capitulate/laugh/love); Barrett lineage cite + locked glosses.  
 **[docs/VALIDITY_REPRO.md](docs/VALIDITY_REPRO.md)** — construct/internal/external validity; bit-seal vs re-run vs sensitivity; discovery append-only; non-claims.
 
 Public commits here are the timestamp buzz feed. Full experiment logs stay on nest.
