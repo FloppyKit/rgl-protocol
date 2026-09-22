@@ -1,12 +1,12 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-22 America/Chicago — MECH-1 public timestamp (earlier headlines unchanged)  
-**Next peel:** GO-MECH-2 (one knob only: louder feel, or a sleep gate that can fire, or outcome-gated credit — not all three). R6-STEVE+ parked. R5-MARS parked.
+**Updated:** 2026-09-22 America/Chicago — MECH-2 public timestamp (earlier headlines unchanged)  
+**Next peel:** HOLD until Matt picks one knob for GO-MECH-3: success-only credit, or louder feel, or a sleep gate that can fire. Not another credit gate with a harsher fail rule. R6-STEVE+ parked. R5-MARS parked.
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder → MPE2 community port). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
-**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22; R2–MECH-1 are later appendices, not headline edits).
+**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22; R2–MECH-2 are later appendices, not headline edits).
 
 ## Language lock
 
@@ -49,6 +49,7 @@ Named affects = clusters of movement impulses (fight / flight / freeze / capitul
 | PATHB-R4b | same physics; defining-axes gate (damage / values-break / withdraw-without-chest) | **SEPARABLE** | fight damage **1.6500**; capitulate values-break **1.0000**; flight withdraw **0.8000**; report-only success flight 0.8000 > fight 0.5250 > capitulate 0.0000; ≥0.90 **empty**; R4-SEP seal untouched |
 | PATHB-R5 | two-Steve Minecraft-**shaped** micro (not Mojang); fog, mob, forbidden chest | **inverse** | fight team success **1.0000** > balanced **0.9750**; fight ≠ capitulate (damage 12 vs 0, values-break 0 vs **1.0000**); flight/capitulate success **0**; balanced cleaner (ally damage 4.40 vs 7.65, time 6.55 vs 15.20); ≥0.90 frontier = fight + balanced; learning off |
 | PATHB-MECH-1 | same two-Steve micro; route / feel / credit / consolidate | **credit inverse; feel null; sleep never fired** | frozen = feel = full loop success **0.9750**; ungated credit **0.4000** (waste and ally harm up; mass on freeze+love, not fight); ≥0.90 = frozen, feel, full loop; credit off; lr 0.15 on credit arms only; not “the machine felt something” |
+| PATHB-MECH-2 | one knob: outcome-gated credit; feel and sleep unchanged | **still inverse** (deeper) | frozen **0.9750**; ungated cited **0.4000**; gated **0.2750**; wrote 53 / skipped 27; mass still freeze+love not fight; full loop sleep 0/80 = frozen; ≥0.90 = frozen + full loop; gated off; not feelings |
 
 ## Learn-arm note (P11–P15)
 
@@ -88,6 +89,7 @@ P20 was independently verified and published out of numerical order relative to 
 - [PATHB_R4B_DEFINING_AXES_2026-09-22.md](PATHB_R4B_DEFINING_AXES_2026-09-22.md)
 - [PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md](PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md)
 - [PATHB_MECH1_ROUTE_FEEL_CREDIT_CONSOLIDATE_2026-09-22.md](PATHB_MECH1_ROUTE_FEEL_CREDIT_CONSOLIDATE_2026-09-22.md)
+- [PATHB_MECH2_OUTCOME_GATED_CREDIT_2026-09-22.md](PATHB_MECH2_OUTCOME_GATED_CREDIT_2026-09-22.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
