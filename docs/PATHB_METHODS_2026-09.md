@@ -228,6 +228,8 @@ Later appendices, not edits of Proofs 20–22: [PATHB_R2_MPE2_SIMPLE_TAG_2026-09
 
 [PATHB_R4_SEP_SEPARABILITY_2026-09-22.md](PATHB_R4_SEP_SEPARABILITY_2026-09-22.md) is **NOT_SEPARABLE** on the success-ordered triple; [PATHB_R4B_DEFINING_AXES_2026-09-22.md](PATHB_R4B_DEFINING_AXES_2026-09-22.md) is **SEPARABLE** on the defining axes (damage, values-break, withdraw-without-chest) and does not test learning.
 
+[PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md](PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md) is still a pencil-and-paper grid, not real teamcraft: **inverse** on two Steves (fight 1.0000 > balanced 0.9750) with the ≥0.90 frontier equal to those two.
+
 ## How to cite, and where the seals live
 
 Cite this narrative as the methods overview, and cite the proof timestamp next to any number. Example:

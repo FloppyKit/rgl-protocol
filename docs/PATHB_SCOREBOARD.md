@@ -1,12 +1,12 @@
 # Path B scoreboard — RGL as deciding agent (opaque next-state)
 
 **clinical_claim: false** · CPU sealed micro-envs · VERIFY PASS required before public timestamp  
-**Updated:** 2026-09-22 America/Chicago — R4-SEP and R4b public timestamps (earlier headlines unchanged)  
-**Next peel:** R5-STEVE (multi-Steve teamcraft/survive). R5-MARS is parked for a later branch, then SC2.
+**Updated:** 2026-09-22 America/Chicago — R5-STEVE public timestamp (earlier headlines unchanged)  
+**Next peel:** GO-MECH-1 (multipart mechanism). R6-STEVE+ parked. R5-MARS parked.
 
 Path B = residual-guided deciding under opacity (SMAC-lite → Minecraft-shaped ladder → MPE2 community port). Shared MiniHack mechanisms are separate (see MiniHack trilogy).
 
-**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22; R2–R4b are later appendices, not headline edits).
+**Methods overview:** **[PATHB_METHODS_2026-09.md](PATHB_METHODS_2026-09.md)** (through Proof-22; R2–R5 are later appendices, not headline edits).
 
 ## Language lock
 
@@ -47,6 +47,7 @@ Named affects = clusters of movement impulses (fight / flight / freeze / capitul
 | PATHB-R3b | overweight grid `{0, +1.0, +2.15, +3.5}` on fixed R2 and P21 proxies | **top arm stable for OW>0** | tag flight stays **0.8125**; P21 love stays **0.2875**; ≥0.90 **empty**; P21 sub-winner flip +1.0→+2.15 only |
 | PATHB-R4-SEP | sealed multi-agent values chest; old success-ordered triple | **NOT_SEPARABLE** | damage and values-break separate; flight and capitulate both success **0.0000** for different reasons; ≥0.90 **empty**; not a learning test |
 | PATHB-R4b | same physics; defining-axes gate (damage / values-break / withdraw-without-chest) | **SEPARABLE** | fight damage **1.6500**; capitulate values-break **1.0000**; flight withdraw **0.8000**; report-only success flight 0.8000 > fight 0.5250 > capitulate 0.0000; ≥0.90 **empty**; R4-SEP seal untouched |
+| PATHB-R5 | two-Steve Minecraft-**shaped** micro (not Mojang); fog, mob, forbidden chest | **inverse** | fight team success **1.0000** > balanced **0.9750**; fight ≠ capitulate (damage 12 vs 0, values-break 0 vs **1.0000**); flight/capitulate success **0**; balanced cleaner (ally damage 4.40 vs 7.65, time 6.55 vs 15.20); ≥0.90 frontier = fight + balanced; learning off |
 
 ## Learn-arm note (P11–P15)
 
@@ -84,6 +85,7 @@ P20 was independently verified and published out of numerical order relative to 
 - [PATHB_R3B_SENSITIVITY_FIXED_PROXIES_2026-09-22.md](PATHB_R3B_SENSITIVITY_FIXED_PROXIES_2026-09-22.md)
 - [PATHB_R4_SEP_SEPARABILITY_2026-09-22.md](PATHB_R4_SEP_SEPARABILITY_2026-09-22.md)
 - [PATHB_R4B_DEFINING_AXES_2026-09-22.md](PATHB_R4B_DEFINING_AXES_2026-09-22.md)
+- [PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md](PATHB_R5_STEVE_TEAMCRAFT_MICRO_2026-09-22.md)
 - Validity note: [VALIDITY_REPRO.md](VALIDITY_REPRO.md)
 
 ## Nest vs public
