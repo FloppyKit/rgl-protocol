@@ -8,6 +8,7 @@ GO-RGL-PATHB-PROOF-27: dose-response of affect bias on Melting Pot `predator_pre
 - Frozen locally: 2026-10-07 22:26:53 CDT
 - Published here: 2026-10-07, before any confirmatory seed (28000–28199) was run
 - Full PREREG.md text: `docs/PATHB_PROOF27_ORCHARD_DOSE_PREREG_2026-10-07.md` (this commit)
+- Note: an earlier push of this prereg (commit 919aa46) was not byte-identical to the frozen file and was superseded by this commit before any confirmatory seed ran. No seed in 28000–28199 has been run.
 
 Disclosures:
 - Dose levels were chosen from route-share calibration on burned seeds 98000–98019 only; food/eaten/success were never read during calibration.
