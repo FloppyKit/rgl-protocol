@@ -41,7 +41,7 @@ Exploratory only: the smallest flight dose (0.355) and the smallest freeze dose 
 | love_autopilot | 0.170 [0.120, 0.225] | 0.155 [0.105, 0.210] | 0.060 [0.030, 0.095] |
 | flight | 0.355 [0.290, 0.420] | 0.320 [0.255, 0.385] | 0.265 [0.205, 0.330] |
 
-Success moves for different reasons. Fight and laugh keep finding food (about 0.73–0.76) but stop staying safe, with safety near 0 from fight's first dose and laugh's second. Love_autopilot gets more food with each dose (0.610, 0.740, 0.825) while safety falls (0.445, 0.290, 0.155). Freeze and flight trade the other way: more dose means more safety and less food.
+Success moves for different reasons. Fight and laugh keep finding food (about 0.69–0.76) but stop staying safe, with safety near 0 from fight's first dose and laugh's second. Love_autopilot gets more food with each dose (0.610, 0.740, 0.825) while safety falls (0.445, 0.290, 0.155). Freeze and flight trade the other way: more dose means more safety and less food.
 
 ## Limitations
 
