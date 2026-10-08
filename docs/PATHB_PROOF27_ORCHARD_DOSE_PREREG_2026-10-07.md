@@ -37,3 +37,30 @@ P26 (prereg 001d35c7401b452d1f0f6f39d0d8d454f956a9890d13ee2f3a7c218cddbeb721, pu
 - Calibration condition: balanced primary success must land in [0.15, 0.70] (same band as P26). Outside means OUT-OF-BAND and everything is exploratory, still fully reported. In band, the six trend tests are confirmatory and the shape and pairwise results stay secondary.
 - No exclusions. A crashed episode is one rerun of that (arm, seed); report the count. No extra seeds for any reason.
 - Bootstrap RNG seeds are frozen in `src/analyze_p27.py`: per-arm mean CIs use numpy Generator seed 27027; risk-difference CIs use seed 27028 + affect_index*10 + dose_index, with affects in the order fight, flight, freeze, capitulate, laugh, love_autopilot and dose_index 0 = LOW, 1 = MID, 2 = HIGH. These pins do not add tests.
+
+## Confirmatory data
+Seeds 28000-28199 have not been run. Calibration seeds 98000-98019 are not in the result set. The analyzer was exercised on a synthetic scratch CSV with seeds 98100-98101 only (`verify-logs/scratch_episodes.csv`). That file is not a result.
+
+## sha256
+Taken after `src/__pycache__` was deleted. `src/analyze_p27.py` is in this list.
+```
+db3bd30d4c0d0713e1e36050e073addc82e10ac85fc41a65ed4d762428e46404  requirements.lock
+b8288e4888cd248ef40cf7378085b2c1eca4393149f7886e2e403ba54edfcfae  src/__init__.py
+f0685d8f1a8dfe983b3703cd7fc6ba52ae4f9b769b3afa671a9061e4ea346f03  src/analyze.py
+b447636548f361de4357e08493522605157887bc46a5dd0bb02924499e7fea51  src/analyze_p26.py
+81f6b2e6ae8536578ac2ab812c3b69e1668372ec3ec06aa310f4245dfbcadc9d  src/analyze_p27.py
+0276d309c81c33d7d48ca94fc58973667fb68229fde6003410d160f3b9447408  src/calibrate_doses.py
+7077677ae4b1c2cd75331e002d29df26d8032e0dcd126222709915d3897685ed  src/common.py
+dd3fcbc207b4a7b52c5dabbde0a42f97e8bfa5264a17177b217abc0a22e68bf6  src/mp_fit.py
+459bfbf7dfaa21fee7fb44c1389b3daf05cb7b538c41bcd80e58e9f018eaaa91  src/mpe_fit.py
+4211dc2ae8cd19f641fbfe82502bebd67cc5bcbf337739671652f1d376be293e  src/p21_port/__init__.py
+81186936a8e9be148e753f98477ef48df0f16ff8565634d451e4956778e04d6d  src/p21_port/features.py
+d3a01bc7db92c4afca7dd87982a7413395a8156aea1b6c842f6ea48f00f20926  src/p21_port/harness.py
+b3774ecab18725ef7a04d8d74c479a35d95ec648abcbb1cb667b457e7b232a06  src/p21_port/policies.py
+2d8d17deafa040bd87c80839ca4da945d84d2d9fab61679274f6f3e75d234bec  src/p23_port/__init__.py
+25caff971daf0d5468306657762170a5f4f5e4051a025500ade54d7ead1c3277  src/p23_port/features.py
+68e3acb2d6406424b571f1e5cc2e7919429c77c081e27159f720c571a3b1691e  src/p23_port/harness.py
+dffc85ba9ff5781dde102013fc1e3c7ffb720ade6ab882f184b454fbeccae690  src/p23_port/policies.py
+4e0f2ff069e35387922ffe2840c93497b7ff92b682a39d0dd716d0ff3d765817  src/power.py
+606305d5bab74f90126f684042a18aff4e9fba659a1bb6f8ff9268177b314cea  src/report_tables.py
+```
