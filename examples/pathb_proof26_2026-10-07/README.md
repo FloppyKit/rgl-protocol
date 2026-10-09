@@ -1,6 +1,6 @@
 # Path B Proof 26 — preregistered 7-arm affect-bias sweep on Melting Pot orchard_3
 
-A proof on a micro-environment model (DeepMind Melting Pot `predator_prey__orchard_3`), in the Barrett/Huberman lineage only. The preregistration (sha256 `001d35c7401b452d1f0f6f39d0d8d454f956a9890d13ee2f3a7c218cddbeb721`) was published byte-identical in commit `574ca21904fa60f58b0d23565937ed0be1caba15` before any confirmatory seed ran. Independent VERIFY: PASS.
+A proof on a micro-environment model (DeepMind Melting Pot `predator_prey__orchard_3`), in the Barrett/Huberman lineage only. The preregistration (sha256 `001d35c7401b452d1f0f6f39d0d8d454f956a9890d13ee2f3a7c218cddbeb721`) was published byte-identical in commit `574ca21904fa60f58b0d23565937ed0be1caba15` before any confirmatory seed ran. Independent VERIFY: FR1 PASS with notes on 2026-10-09 (report sha256 `9c8c5c1b2926a07db05fcf53312de9d2aa053f4454e8bb2c523f2f69049eb5cd`); see the correction below.
 
 ## Headline
 
@@ -30,6 +30,10 @@ Each single-route arm fails a different way: love_autopilot, fight and laugh fin
 ## Limitations
 
 One environment; unpaired analysis; pretrained background bots; the success definition originated post-hoc in the P24 pilot (locked before P25 and unchanged since); at +2.15 every biased arm collapsed to one route, so P26 says nothing about smaller, graded biases (planned as a follow-up). Full data and logs are held in the project's private nest.
+
+## Correction (2026-10-09)
+
+When this page was first published (commit `a8c038f63969bed1bae0e36d2bafec04d02979ac`, 2026-10-07 21:20 CT), it said "Independent VERIFY: PASS" and the commit message said "VERIFY PASS FR1". At that time the only Verify result on record was FR0, which had failed the write-up on wording (single-route framing missing, a badge in the lead); its fix had been applied one minute earlier, and no FR1 check had been run. A re-verify on 2026-10-09 recomputed every number from the data (unchanged), found two more record issues (a result-free lead and a mislabelled pre-fix copy), and its fix was applied the same day. Verify FR1 then passed with notes on 2026-10-09. No result, number, or conclusion on this page changed.
 
 ## Footer
 
