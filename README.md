@@ -1,95 +1,121 @@
 # Resonance Guided Learning (RGL)
 
-**Open science protocol** for residual process on multi-agent work.
+RGL is a router: a cost-benefit planner that, at each step, scores a set of options by what each one is expected to cost and gain in survival and picks among them. The main arena is ViZDoom team deathmatch. The first proofs meant to stand at NSF level will come from there. Everything before ViZDoom is preliminary.
 
-This repository publishes **protocol shape, schemas, and redacted examples**.  
-It is **not** clinical software and **not** a security exploit toolkit.
+This repository publishes the protocol shape, schemas, and redacted examples. It is open science.
 
 | | |
 |--|--|
-| **What it is** | Process layer: residual ranking on *report/draft streams* |
-| **What it is not** | Red-team replacement · exploit kit · private disclosure dump |
-| **Status** | Early open science · v0.1 |
+| **What it is** | A router (cost-benefit planner) over six option families, plus an optional residual "rudder" that biases routes |
+| **What it is not** | A model with feelings · clinical or diagnostic software · an exploit kit |
+| **Main arena** | ViZDoom team deathmatch (stock environment) |
+| **Status** | Pre-pilot. See [Current status](#current-status) |
 
 ---
 
-## Names
+## The idea
 
-RGL is an overloaded public acronym — see **[docs/NAMES.md](docs/NAMES.md)**  
-(Resonance Guided Learning · Residual Geometry Loosening · Robert Galatzer-Levy rhyme; book cite in NAMES).
+### A router over six families
 
-## Sealed micro-env proofs (science timestamp)
+An emotions map routes among six families: **fight, flight, freeze, capitulate, laugh, love**. These are family names only. Each one names a set of options that are scored by the same survival calculation. Nothing here claims that an agent has feelings or inner experience.
 
-**Shared mechanisms (MiniHack):**  
-**[docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md](docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md)** — residual gate / sleep collapse / interrupt hold. Includes an **inverse** result (cool residual ≠ win). `clinical_claim: false`.
+Two of the names have specific meanings:
 
-**Path B — RGL as deciding agent (opaque next-state):**  
-**[docs/PATHB_SCOREBOARD.md](docs/PATHB_SCOREBOARD.md)** — index for Proofs 4–15 (boss / MC / learn / interrupt). Prefer **thrash > baseline** language when thrash wins.  
-**[docs/AFFECT_ROUTE_MAP.md](docs/AFFECT_ROUTE_MAP.md)** — affect as movement-impulse clusters (fight/flight/freeze/capitulate/laugh/love); Barrett lineage cite + locked glosses.  
-**[docs/VALIDITY_REPRO.md](docs/VALIDITY_REPRO.md)** — construct/internal/external validity; bit-seal vs re-run vs sensitivity; discovery append-only; non-claims.
+- **Love** means serving the team plan. It does not mean staying close to a teammate.
+- **Capitulate** means backing off to heal or reload.
 
-Public commits here are the timestamp buzz feed. Full experiment logs stay on nest.
+The other four keep their plain sense (engage, retreat, hold still, explore).
 
----
+### The residual triangle: a soft rudder
 
-## If you run multi-agent security search (start here)
+A separate residual triangle combines three readings: **Affective/relational** (affinity), **Consistency**, and **Novelty**. It acts as a soft rudder that biases which route wins. It is not a hard picker. In ViZDoom it is an add-on arm, tested against the router without it.
 
-**Problem we target:** finding *volume* is easy; **human triage cost** is not.  
-Multi-agent runs produce report firehose. Residual ranking is meant to cut **tokens + human minutes per high-signal escalation** — not to scan more repos.
+### "Sleep": memory compaction
 
-### Residual on finding streams (BTC-shaped worked example)
+"Sleep" means memory compaction. It is a backlog need, like hunger, and sits outside the six routes. It fires at save-spot moments: points where the state has just changed a lot.
 
-1. **[docs/RESIDUAL_OFFER.md](docs/RESIDUAL_OFFER.md)** — one-page offer / pilot framing  
-2. **[docs/BTC_RESIDUAL_OVERLAY.md](docs/BTC_RESIDUAL_OVERLAY.md)** — method note  
-3. **[examples/finding_packets/](examples/finding_packets/)** — public-historical **redacted** sample outcomes  
-4. **[schemas/finding_packet.schema.json](schemas/finding_packet.schema.json)** — packet shape  
+### What counts as success
 
-**Pipeline (shape only):**
+- **Core metric:** how long the agent survives.
+- **Secondary:** team survival, or how far the agent got.
 
-```text
-finding packets (multi-agent drafts)
-  → residual Con / Nov / Rel
-  → escalate high residual shortlist
-  → hard gate: no auto-public disclosure of live vulns
-  → you keep disclosure ownership
-```
-
-**Success metric:** tokens / human-minutes per high-signal escalate — **not** repos scanned, **not** finding-count vanity.
-
-**Pilot tracks (if useful):**
-
-| Track | What |
-|-------|------|
-| **A** | You send sanitized middling multi-agent drafts → residual-rank only |
-| **B** | You point at a public subset → same process, no private data |
+See [docs/NAMES.md](docs/NAMES.md) for the acronym (Resonance Guided Learning; other public readings of "RGL" are listed there).
 
 ---
 
-## Protocol core
+## Environments
 
-1. [docs/PROTOCOL.md](docs/PROTOCOL.md) — protocol shape  
-2. Dual metrics: residual path ≠ “cool score wins.” High residual can mean *attention needed*.  
-3. Soft escalate when residual is high; **hard gate** when live disclosure safety requires stop.
+Stock environments are preferred.
+
+- **ViZDoom, team mode: the main arena.** Doom-level intensity matches real life. The first NSF-level proofs come from it.
+- **Earlier work is preliminary or smoke-level only:** the P-series and Path B micro-environments, Craftax, MiniHack, SMAC-lite, MPE. The documents below are kept as a timestamped record, not as the main evidence. Craftax results are unpublished lab notes.
+- **Next after Doom:** Neural MMO (MIT).
+
+### Preliminary record (timestamped, smoke-level)
+
+- [docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md](docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md): MiniHack (residual gate, sleep collapse, interrupt hold). It includes an inverse result: a cool residual is not the same as a win.
+- [docs/PATHB_SCOREBOARD.md](docs/PATHB_SCOREBOARD.md): index for the Path B micro-environment runs (RGL as the deciding agent).
+- [docs/AFFECT_ROUTE_MAP.md](docs/AFFECT_ROUTE_MAP.md): an earlier write-up of the six-family route map. The family names are labels only.
+- [docs/VALIDITY_REPRO.md](docs/VALIDITY_REPRO.md): validity, reproduction, and non-claims.
+- [docs/PATHB_METHODS_2026-09.md](docs/PATHB_METHODS_2026-09.md): methods used for those runs.
 
 ---
 
-## Other worked example (legitimacy / open science — not the security pitch)
+## Method
 
-Same process idea on a different public stream: ranking open Lean `sorry`s by process attention (kernel still owns correctness).
+Care over speed:
 
-→ [examples/lean_sorry_triage/](examples/lean_sorry_triage/)
+- **Preregistration first:** every preregistration revision is written down before the data it affects.
+- **Dry runs** use throwaway seeds that are never used for results.
+- **Every arm** has a behavioural-difference test plus mutants: deliberate code breaks that the tests must catch.
+- **Per-step traces** are kept for every run.
+- **An independent Verify pass** is required before anything is frozen.
 
-No automated PRs. Not a proof contest entry.
+[docs/PROTOCOL.md](docs/PROTOCOL.md) describes the protocol shape.
 
 ---
+
+## Current status
+
+GO-RGL-V3-BUILD-1 is the ViZDoom build of the v3 spec.
+
+- **Next step:** a map_only smoke run, pre-pilot, with λ = 0. Every smoke result will be labelled "pre-pilot, λ=0".
+- **Revision r4g** has passed Verify and is waiting for Matt to apply it and launch.
+- **No ViZDoom results are published yet.**
+
+---
+
+## Other uses of the residual idea
+
+The residual ranking (Consistency / Novelty / Relational) has also been written up for two streams outside the agent work:
+
+- **Triage of multi-agent finding streams.** The aim is to cut human minutes per high-signal escalation, not to scan more. Hard gate: no automatic public disclosure. See:
+  - [docs/RESIDUAL_OFFER.md](docs/RESIDUAL_OFFER.md)
+  - [docs/BTC_RESIDUAL_OVERLAY.md](docs/BTC_RESIDUAL_OVERLAY.md)
+  - [examples/finding_packets/](examples/finding_packets/)
+  - [schemas/finding_packet.schema.json](schemas/finding_packet.schema.json)
+
+  A high residual means attention is needed. It is not a confirmed vulnerability.
+- **Ranking open Lean `sorry`s by process attention.** The kernel still owns correctness. See [examples/lean_sorry_triage/](examples/lean_sorry_triage/).
+
+---
+
+## Tools
+
+All apps used are free and open-source, local-first, with no lock-in.
 
 ## What is not published here
 
-Full complete experiment logs, controller parameters, private corpora, unredacted free-association, operational playbooks (nest).
+- full experiment logs;
+- controller parameters;
+- private corpora;
+- operational playbooks.
+
+These stay in the lab's private archive.
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE).
 
 ## Citation
 
@@ -97,8 +123,11 @@ See [CITATION.cff](CITATION.cff).
 
 ## Non-claims
 
-- Not a medical device; not DSM / clinical diagnosis software.  
-- Not a certified cryptocurrency auditor.  
-- Not responsible disclosure of any third party’s private findings.  
-- Residual escalation is **not** the same as a confirmed vulnerability.  
-- Not a replacement Bitcoin red team.
+- The six family names are labels only. No claim that any model has feelings or inner experience.
+- Not a medical device; not clinical or diagnostic software.
+- Not a certified cryptocurrency auditor, and not a replacement for any red team.
+- Not responsible disclosure of anyone's private findings.
+
+## Footer
+
+clinical_claim: false · proof/micro-env/model
