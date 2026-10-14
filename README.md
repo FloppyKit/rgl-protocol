@@ -48,7 +48,7 @@ See [docs/NAMES.md](docs/NAMES.md) for the acronym (Resonance Guided Learning; o
 Stock environments are preferred.
 
 - **ViZDoom, team mode: the main arena.** Doom-level intensity matches real life. The first NSF-level proofs come from it.
-- **Earlier work is preliminary or smoke-level only:** the P-series and Path B micro-environments, Craftax, MiniHack, SMAC-lite, MPE. The documents below are kept as a timestamped record, not as the main evidence. Craftax results are unpublished lab notes.
+- **Earlier work is preliminary or smoke-level only:** the P-series and Path B micro-environments, Craftax, MiniHack, SMAC-lite, MPE. The documents below are kept as a timestamped record, not as the main evidence. The Craftax v2 prereg is public ([docs/RGL_V2_PROOF1B_CRAFTAX_PREREG_2026-10-10.md](docs/RGL_V2_PROOF1B_CRAFTAX_PREREG_2026-10-10.md), frozen 2026-10-10, before any confirmatory seed); its results are not published and are kept as lab notes.
 - **Next after Doom:** Neural MMO (MIT).
 
 ### Preliminary record (timestamped, smoke-level)
