@@ -81,7 +81,7 @@ GO-RGL-V3-BUILD-1 is the ViZDoom build of the v3 spec.
 
 - **Next step:** a map_only smoke run, pre-pilot, with λ = 0. Every smoke result will be labelled "pre-pilot, λ=0".
 - **Revision r4g** has passed Verify and is waiting for Matt to apply it and launch.
-- **No ViZDoom results are published yet.**
+- **First ViZDoom result (perception gate only):** the pre-registered rung_r3p5 r1.13 P0 perception probe passed on fresh sealed seed 67150, 3 of 3 fits ([examples/vizdoom_r3p5_r113_2026-10-27/](examples/vizdoom_r3p5_r113_2026-10-27/), 2026-10-27). Proof only: code and granular logs stay in the private archive, with SHA256SUMS as proof. No ViZDoom routing results are published yet.
 
 ---
 

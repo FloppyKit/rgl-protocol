@@ -7,3 +7,19 @@ __pycache__/
 *.pyc
 .idea/
 .vscode/
+
+# Proof-only publication (assistant-rules rule 12): code, tests, logs and model files stay private.
+*.py
+*.sh
+*.jsonl
+tests/
+*log*
+DEVIATION*
+*.pt
+*.npz
+# Already-tracked files these patterns would otherwise hide (keep them visible):
+!examples/finding_packets/synthetic_findings_bt1.jsonl
+!examples/lean_sorry_triage/data/sample.jsonl
+!examples/proof_packets/sample_packets.jsonl
+!docs/MINIHACK_PROOF_TRILOGY_2026-09-21.md
+!examples/minihack_trilogy_2026-09-21/

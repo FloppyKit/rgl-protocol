@@ -23,18 +23,18 @@ GO-RGL-INTERP-1, rung_r3p5, ViZDoom map KD05. A pre-registered perception probe 
 
 ## What is in this folder
 
+Proof only. The run code, tests, data pins, deviation log, Verify package, Verify reports and run log are held in the lab's private archive. `SHA256SUMS.txt` lists the sha256 of every one of those files as published proof; anyone given the private copies can check them with `shasum -a 256 -c`.
+
 - `rung_r3p5/RUNG_SPEC_r1.13_P0_SEEDS.md`: the pre-registration (rev2), sha256 `c30174eccd46bc209fc7a36e77fb2492278d377727a2b3b2d15c764ca1189872`.
-- `rung_r3p5/r113/`: run code, tests, data pins, Verify package and Verify's `FROZEN_r1.13.json`. `rung_r3p5/postmortem_20261026/pm_common.py` and `pm_record.py` are the two post-mortem files FROZEN also pins. Paths mirror the lab tree, so `FROZEN_r1.13.json` hashes check directly from `rung_r3p5/`.
-- `rung_r3p5/logs/DEVIATIONS_r1.13.md`: deviations DV-R261 to DV-R282 (part of the spec).
-- `verify_reports/`: Verify rev1 (FAIL, af4b1883, tie-break gate) and rev2 (PASS-with-notes, 8ee40916).
-- `results/`: VERDICT, SCORES csv (sha256 `184e05bd49d1df41ef2cf48b521f19075f3f2fa68696700502cb6b5aebb69fd2`), WRITEUP, ADEQUACY, seal marker and the orchestrator RUN_LOG.
-- `SHA256SUMS.txt`: hashes for every file here.
+- `rung_r3p5/r113/FROZEN_r1.13.json`: Verify's freeze record (spec sha, code file hashes, seeds). Hashes only.
+- `results/score/`: VERDICT, SCORES csv (sha256 `184e05bd49d1df41ef2cf48b521f19075f3f2fa68696700502cb6b5aebb69fd2`), WRITEUP, ADEQUACY and the seal marker.
+- `SHA256SUMS.txt`: hashes for every file of the r1.13 package, public and held back.
 
 ## Disclosures
 
-- The code imports frozen lab modules that are not published here (`r18_learn`, `r19b_p0`, `r111_p0`, the ViZDoom env glue), so it documents the run but does not reproduce it standalone.
+- Held back (private archive, hashes in `SHA256SUMS.txt`): source code and tests, data pins, the deviation log (DV-R261 to DV-R282, part of the spec), the Verify package, both Verify reports and the run log. An earlier commit (21852a1) published these by mistake; they were removed from the tree in the next commit, but they remain in git history.
 - The pre-registration was frozen by Verify before the sealed seed was recorded, but unlike the Path B preregs it was not published here before the run; this folder is the first public copy.
-- Not published: demo recordings, per-frame predictions, model checkpoints and per-fit logs. They stay in the lab's private archive.
+- Not published: demo recordings, per-frame predictions, model checkpoints and per-fit logs.
 - A P0 PASS is a perception gate, not a result about RGL's routing. No ViZDoom routing results are published yet.
 - Family and route names elsewhere in this repo are labels only. Nothing here is a clinical result.
 
