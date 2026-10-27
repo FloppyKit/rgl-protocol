@@ -1,0 +1,18 @@
+{
+ "smoke": false,
+ "tries": [
+  {
+   "counts": {
+    "episodes": 31,
+    "large": 2726,
+    "left_frac": 0.4904567874758739,
+    "seed": 67150,
+    "small": 1937,
+    "visible": 4663
+   },
+   "ok": true,
+   "refusals": [],
+   "steps": 20000
+  }
+ ]
+}

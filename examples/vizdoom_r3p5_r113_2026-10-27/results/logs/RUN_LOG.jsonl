@@ -1,0 +1,27 @@
+{"event": "preflight_ok", "smoke": false, "train": [67170, 67171, 67173, 67174, 67175, 67176, 67177, 67178, 67179, 67180, 67181, 67182, 67183, 67184, 67185, 67186, 67187, 67188, 67189, 67190, 67191, 67192, 67193, 67194], "val": 67172, "init_seeds": {"A": 67140, "B": 1130001, "C": 1130002}, "t": "2026-10-27 00:24:31 CDT"}
+{"event": "start", "name": "fit_A", "pid": 31328, "argv": ["/Users/dude/rgl-proofs/GO-RGL-INTERP-1/scratch/rung_r3p5/r113/r113_fit.py", "--root", "/Volumes/MiniHangar/rgl-artifacts/GO-RGL-INTERP-1/rung_r3p5_runs/r113", "--fit", "A"], "t": "2026-10-27 00:24:31 CDT"}
+{"event": "start", "name": "fit_B", "pid": 31329, "argv": ["/Users/dude/rgl-proofs/GO-RGL-INTERP-1/scratch/rung_r3p5/r113/r113_fit.py", "--root", "/Volumes/MiniHangar/rgl-artifacts/GO-RGL-INTERP-1/rung_r3p5_runs/r113", "--fit", "B"], "t": "2026-10-27 00:24:31 CDT"}
+{"event": "start", "name": "fit_C", "pid": 31330, "argv": ["/Users/dude/rgl-proofs/GO-RGL-INTERP-1/scratch/rung_r3p5/r113/r113_fit.py", "--root", "/Volumes/MiniHangar/rgl-artifacts/GO-RGL-INTERP-1/rung_r3p5_runs/r113", "--fit", "C"], "t": "2026-10-27 00:24:31 CDT"}
+{"event": "watch", "swap_mib": 4862, "tree_rss_mib": 28, "t": "2026-10-27 00:24:31 CDT"}
+{"event": "watch", "swap_mib": 4947, "tree_rss_mib": 605, "t": "2026-10-27 00:29:31 CDT"}
+{"event": "watch", "swap_mib": 5244, "tree_rss_mib": 755, "t": "2026-10-27 00:34:32 CDT"}
+{"event": "watch", "swap_mib": 5236, "tree_rss_mib": 737, "t": "2026-10-27 00:39:33 CDT"}
+{"event": "watch", "swap_mib": 5156, "tree_rss_mib": 553, "t": "2026-10-27 00:44:33 CDT"}
+{"event": "watch", "swap_mib": 5345, "tree_rss_mib": 540, "t": "2026-10-27 00:49:34 CDT"}
+{"event": "watch", "swap_mib": 5329, "tree_rss_mib": 550, "t": "2026-10-27 00:54:34 CDT"}
+{"event": "watch", "swap_mib": 5313, "tree_rss_mib": 546, "t": "2026-10-27 00:59:35 CDT"}
+{"event": "watch", "swap_mib": 5595, "tree_rss_mib": 549, "t": "2026-10-27 01:04:35 CDT"}
+{"event": "watch", "swap_mib": 5595, "tree_rss_mib": 564, "t": "2026-10-27 01:09:36 CDT"}
+{"event": "watch", "swap_mib": 5587, "tree_rss_mib": 573, "t": "2026-10-27 01:14:37 CDT"}
+{"event": "watch", "swap_mib": 5579, "tree_rss_mib": 559, "t": "2026-10-27 01:19:37 CDT"}
+{"event": "watch", "swap_mib": 5571, "tree_rss_mib": 544, "t": "2026-10-27 01:24:38 CDT"}
+{"event": "watch", "swap_mib": 5555, "tree_rss_mib": 550, "t": "2026-10-27 01:29:38 CDT"}
+{"event": "watch", "swap_mib": 5547, "tree_rss_mib": 539, "t": "2026-10-27 01:34:39 CDT"}
+{"event": "watch", "swap_mib": 5539, "tree_rss_mib": 539, "t": "2026-10-27 01:39:40 CDT"}
+{"event": "watch", "swap_mib": 5539, "tree_rss_mib": 372, "t": "2026-10-27 01:44:40 CDT"}
+{"event": "watch", "swap_mib": 5531, "tree_rss_mib": 197, "t": "2026-10-27 01:49:41 CDT"}
+{"event": "ended", "rcs": {"fit_A": 0, "fit_B": 0, "fit_C": 0}, "peak_swap_mib": 5619, "peak_tree_rss_mib": 1289, "t": "2026-10-27 01:53:56 CDT"}
+{"event": "start", "name": "score", "pid": 50174, "argv": ["/Users/dude/rgl-proofs/GO-RGL-INTERP-1/scratch/rung_r3p5/r113/r113_score.py", "--root", "/Volumes/MiniHangar/rgl-artifacts/GO-RGL-INTERP-1/rung_r3p5_runs/r113"], "t": "2026-10-27 01:53:56 CDT"}
+{"event": "watch", "swap_mib": 5523, "tree_rss_mib": 17, "t": "2026-10-27 01:53:56 CDT"}
+{"event": "ended", "rcs": {"score": 0}, "peak_swap_mib": 5523, "peak_tree_rss_mib": 788, "t": "2026-10-27 01:56:11 CDT"}
+{"event": "done", "ok": true, "t": "2026-10-27 01:56:11 CDT"}

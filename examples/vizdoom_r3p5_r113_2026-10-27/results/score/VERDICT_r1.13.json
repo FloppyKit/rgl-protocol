@@ -1,0 +1,19 @@
+{
+ "bars": {
+  "auc": 0.85,
+  "lr": 0.8
+ },
+ "clinical_claim": false,
+ "csv_sha256": "184e05bd49d1df41ef2cf48b521f19075f3f2fa68696700502cb6b5aebb69fd2",
+ "median_auc": 0.9657069506167051,
+ "median_fit": "C",
+ "median_lr": 0.8222174565730217,
+ "n_pass": 3,
+ "rule_i_2of3": true,
+ "rule_ii_median_fit": true,
+ "rule_iii_medians": true,
+ "smoke": false,
+ "test_seed": 67150,
+ "verdict": "PASS",
+ "wall_s": 134.2
+}
